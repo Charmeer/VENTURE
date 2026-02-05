@@ -1,0 +1,18 @@
+{
+  "revenue": {
+    "title": "Revenue Streams and Profitability",
+    "description": "Multiple revenue streams from fuel sales, waste processing fees, and by-product utilization creating diversified income sources.",
+    "revenue_streams": {
+      "liquid_fuel_sales": "₹18 lakhs/month",
+      "gaseous_fuel_sales": "₹3.5 lakhs/month",
+      "waste_processing_fees": "₹2 lakhs/month",
+      "by_product_sales": "₹1.5 lakhs/month",
+      "total_monthly_revenue": "₹25 lakhs/month"
+    },
+    "product_pricing": {
+      "liquid_fuel_price": "₹17,000/ton",
+      "gaseous_fuel_price": "₹14,000/ton",
+      "processing_fee": "₹1,333/ton"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "process": {
+    "title": "Engineering and Process Flow",
+    "description": "Systematic approach involving feedstock preparation, pyrolysis reactor, product separation, and quality control to ensure consistent fuel production.",
+    "steps": [
+      {
+        "step": 1,
+        "name": "Feedstock Collection and Sorting",
+        "description": "Collection of mixed plastic waste from local sources with basic sorting to remove non-plastic materials"
+      },
+      {
+        "step": 2,
+        "name": "Size Reduction and Drying",
+        "description": "Plastic waste is shredded to uniform size and dried to optimal moisture content"
+      },
+      {
+        "step": 3,
+        "name": "Pyrolysis Reactor Processing",
+        "description": "Controlled thermal decomposition in presence of catalysts at 400-500°C"
+      },
+      {
+        "step": 4,
+        "name": "Product Separation",
+        "description": "Fractional condensation separates liquid fuel, gases, and solid residue"
+      },
+      {
+        "step": 5,
+        "name": "Quality Testing and Storage",
+        "description": "Final product testing for quality parameters and proper storage"
+      }
+    ]
+  }
+}

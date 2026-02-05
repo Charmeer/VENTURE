@@ -1,0 +1,12 @@
+{
+  "problem": {
+    "title": "Plastic Waste Problem",
+    "description": "India generates approximately 3.5 million tons of plastic waste annually, with only 30% being recycled through traditional methods. The remaining 70% ends up in landfills, oceans, or is burned, creating severe environmental pollution and health hazards.",
+    "statistics": {
+      "annual_plastic_waste": "3.5 million tons",
+      "recycling_rate": "30%",
+      "unmanaged_waste": "70%",
+      "landfill_impact": "Severe environmental pollution"
+    }
+  }
+}

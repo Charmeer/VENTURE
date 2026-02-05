@@ -1,0 +1,18 @@
+{
+  "investment": {
+    "title": "Investment Requirements",
+    "description": "Initial capital investment for establishing a micro-scale plastic waste conversion plant with complete setup and working capital.",
+    "capital_requirements": {
+      "plant_equipment": "₹12 lakhs",
+      "land_and_infrastructure": "₹8 lakhs",
+      "working_capital": "₹5 lakhs",
+      "licensing_and_permits": "₹2 lakhs",
+      "total_initial_investment": "₹27 lakhs"
+    },
+    "funding_sources": [
+      "Equity investment (60%)",
+      "Bank loan (30%)",
+      "Government subsidies (10%)"
+    ]
+  }
+}

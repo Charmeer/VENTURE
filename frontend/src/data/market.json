@@ -1,0 +1,17 @@
+{
+  "market": {
+    "title": "Market Potential Across India",
+    "description": "Significant market opportunity exists across India's industrial and transportation sectors with demand for alternative fuels and waste management solutions.",
+    "market_size": {
+      "total_addressable_market": "₹28,000 crores annually",
+      "target_segments": ["Industrial fuel users", "Transportation sector", "Waste management companies"],
+      "geographic_focus": "Tier 2 and Tier 3 cities with high plastic waste generation"
+    },
+    "demand_factors": [
+      "Increasing fuel costs driving alternative fuel adoption",
+      "Government waste management regulations",
+      "Corporate sustainability initiatives",
+      "Growing environmental awareness"
+    ]
+  }
+}
