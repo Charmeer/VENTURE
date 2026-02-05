@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import FloatingMenu from './components/FloatingMenu';
 import Home from './pages/Home';
@@ -28,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/ESD">
       <div className="min-h-screen bg-gray-50">
         {isMobile ? <Navigation /> : null}
         <main>
