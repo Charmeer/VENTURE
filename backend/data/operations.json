@@ -1,0 +1,20 @@
+{
+  "operations": {
+    "title": "Monthly Operational Breakdown",
+    "description": "Detailed monthly operating costs and requirements for efficient plant operations including raw materials, labor, and overhead expenses.",
+    "monthly_costs": {
+      "raw_materials": "₹4.5 lakhs",
+      "labor_costs": "₹2.8 lakhs",
+      "utilities_electricity": "₹1.2 lakhs",
+      "maintenance": "₹80,000",
+      "transportation": "₹50,000",
+      "miscellaneous": "₹40,000",
+      "total_monthly_operating_cost": "₹10.05 lakhs"
+    },
+    "operational_capacity": {
+      "monthly_feedstock_processing": "150 tons",
+      "fuel_production_capacity": "105 tons",
+      "plant_utilization_rate": "85%"
+    }
+  }
+}

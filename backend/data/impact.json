@@ -1,0 +1,96 @@
+{
+  "impact": {
+    "title": "Impact Assessment – Sustainability Metrics",
+    "description": "Triple-bottom-line approach delivering measurable environmental benefits, financial returns, and positive social outcomes for local communities.",
+    "overview": {
+      "summary": "The plastic waste conversion system addresses India's significant plastic waste challenge by converting 1,800 tons of plastic waste annually into valuable fuel products while creating local employment opportunities and reducing environmental pollution.",
+      "approach": "Triple-bottom-line sustainability framework"
+    },
+    "sustainability_metrics": {
+      "quantitative": {
+        "waste_diversion": {
+          "annual_tons": "1,800 tons",
+          "monthly_tons": "150 tons",
+          "plant_utilization": "85%"
+        },
+        "conversion_efficiency": {
+          "rate": "70-80%",
+          "monthly_fuel_capacity": "105 tons",
+          "liquid_yield": "60-70%"
+        },
+        "economic_value": {
+          "monthly_revenue": "₹25 lakhs",
+          "five_year_revenue": "₹700 lakhs",
+          "monthly_net_profit": "₹4.9 lakhs",
+          "five_year_roi": "218%"
+        },
+        "emissions_reduction": {
+          "annual_co2_tons": "12,000 tons",
+          "pollution_elimination": "Open burning and improper disposal"
+        }
+      }
+    },
+    "environmental_impact": {
+      "waste_reduction": {
+        "description": "Significantly diverts plastic waste from traditional disposal methods, preventing 1,800 tons from entering landfills annually. Addresses the critical issue where 70% of India's 3.5 million tons of annual plastic waste currently ends up in landfills, oceans, or is burned.",
+        "annual_impact": "1,800 tons diverted from landfills"
+      },
+      "cleaner_energy": {
+        "description": "Pyrolysis process converts plastic waste into valuable liquid fuel (60-70% yield) and gaseous fuel (20-25% yield), providing sustainable alternative to conventional fossil fuels.",
+        "fuel_substitution": "Reduces dependency on traditional energy sources"
+      },
+      "environmental_burden": {
+        "description": "Eliminates pollution from open burning and improper plastic disposal methods. Controlled thermal decomposition at 400-500°C with zeolite-based catalysts ensures environmentally responsible processing.",
+        "pollution_prevention": "Elimination of open burning practices"
+      }
+    },
+    "economic_impact": {
+      "revenue_generation": {
+        "liquid_fuel_sales": "₹18 lakhs/month",
+        "gaseous_fuel_sales": "₹3.5 lakhs/month",
+        "waste_processing_fees": "₹2 lakhs/month",
+        "by_product_sales": "₹1.5 lakhs/month",
+        "total_monthly_revenue": "₹25 lakhs/month"
+      },
+      "local_benefits": {
+        "direct_employment": "15-20 jobs",
+        "tax_contributions": "Enhanced local tax base",
+        "decentralized_support": "Micro-scale operations support",
+        "business_development": "Local opportunity creation"
+      },
+      "cost_structure": {
+        "monthly_operating_cost": "₹10.05 lakhs",
+        "raw_materials": "₹4.5 lakhs",
+        "labor_costs": "₹2.8 lakhs",
+        "utilities_maintenance": "₹2.0 lakhs",
+        "transportation_misc": "₹0.9 lakhs"
+      }
+    },
+    "social_impact": {
+      "community_health": {
+        "description": "Contributes to improved air and water quality by eliminating open burning practices and preventing plastic waste contamination of local water sources.",
+        "health_benefits": "Addresses significant health hazards from traditional disposal"
+      },
+      "skill_development": {
+        "description": "Provides direct employment for 15-20 local workers while offering technical training programs in waste processing and renewable energy technologies.",
+        "training_programs": "Specialized technical skills development"
+      },
+      "waste_management": {
+        "description": "Enhances local waste collection systems and creates entrepreneurship opportunities for community participation in waste-to-energy value chain.",
+        "infrastructure_improvement": "Strengthened local collection systems"
+      },
+      "community_development": {
+        "description": "Supports local business development and strengthens community technical capabilities in sustainable waste management practices.",
+        "capacity_building": "Enhanced community technical capabilities"
+      }
+    },
+    "operational_summary": {
+      "monthly_processing": "150 tons of plastic waste",
+      "fuel_production": "105 tons of high-quality fuels",
+      "annual_diversion": "1,800 tons from landfill disposal",
+      "emissions_avoidance": "12,000 tons CO₂ equivalent reduction yearly",
+      "local_employment": "15-20 direct jobs with training programs",
+      "financial_returns": "218% ROI over 5-year investment period"
+    }
+  }
+}

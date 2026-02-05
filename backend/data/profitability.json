@@ -1,0 +1,18 @@
+{
+  "profitability": {
+    "title": "Financial Performance Analysis",
+    "description": "Strong financial returns with break-even achieved within 18 months and attractive ROI for investors.",
+    "financial_metrics": {
+      "monthly_gross_profit": "₹14.95 lakhs",
+      "monthly_operating_expenses": "₹10.05 lakhs",
+      "monthly_net_profit": "₹4.9 lakhs",
+      "annual_net_profit": "₹58.8 lakhs",
+      "payback_period": "18 months",
+      "return_on_investment": "218% over 5 years"
+    },
+    "profit_margins": {
+      "gross_margin": "60%",
+      "net_margin": "20%"
+    }
+  }
+}

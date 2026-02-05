@@ -1,0 +1,13 @@
+{
+  "technology": {
+    "title": "Micro-Scale Catalytic Pyrolysis",
+    "description": "Advanced thermal decomposition process that converts plastic waste into valuable liquid fuel and gases using catalysts at controlled temperatures between 400-500°C.",
+    "process_details": {
+      "temperature_range": "400-500°C",
+      "catalyst_type": "Zeolite-based catalysts",
+      "feedstock": "Mixed plastic waste (LDPE, HDPE, PP, PS)",
+      "output_products": ["Liquid fuel (60-70%)", "Gaseous fuel (20-25%)", "Char residue (5-10%)"]
+    },
+    "efficiency": "70-80% conversion rate with high-quality fuel output"
+  }
+}
