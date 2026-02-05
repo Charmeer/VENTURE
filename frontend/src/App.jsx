@@ -14,7 +14,7 @@ import Profitability from './pages/Profitability';
 import Risks from './pages/Risks';
 import Impact from './pages/Impact';
 import NextSteps from './pages/NextSteps';
-import TestPage from './pages/TestPage';
+
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -46,7 +46,6 @@ function App() {
             <Route path="/risks" element={<Risks />} />
             <Route path="/impact" element={<Impact />} />
             <Route path="/next-steps" element={<NextSteps />} />
-            <Route path="/test" element={<TestPage />} />
           </Routes>
         </main>
         {!isMobile && <FloatingMenu />}
