@@ -50,7 +50,8 @@ const Navigation = () => {
     { name: 'Profitability', href: '/profitability' },
     { name: 'Risks', href: '/risks' },
     { name: 'Impact', href: '/impact' },
-    { name: 'Next Steps', href: '/next-steps' }
+    { name: 'Next Steps', href: '/next-steps' },
+    { name: 'Test', href: '/test' }
   ];
 
   return (
