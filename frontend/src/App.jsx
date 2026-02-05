@@ -29,7 +29,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/ESD">
+    <Router basename="/VENTURE">
       <div className="min-h-screen bg-gray-50">
         {isMobile ? <Navigation /> : null}
         <main>
