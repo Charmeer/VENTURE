@@ -1,5 +1,31 @@
 import axios from 'axios';
 
+// Import all data files statically
+import problemData from '../data/problem.json';
+import technologyData from '../data/technology.json';
+import processData from '../data/process.json';
+import marketData from '../data/market.json';
+import investmentData from '../data/investment.json';
+import operationsData from '../data/operations.json';
+import revenueData from '../data/revenue.json';
+import profitabilityData from '../data/profitability.json';
+import risksData from '../data/risks.json';
+import impactData from '../data/impact.json';
+
+// Map filenames to imported data
+const dataMap = {
+  problem: problemData.problem,
+  technology: technologyData.technology,
+  process: processData.process,
+  market: marketData.market,
+  investment: investmentData.investment,
+  operations: operationsData.operations,
+  revenue: revenueData.revenue,
+  profitability: profitabilityData.profitability,
+  risks: risksData.risks,
+  impact: impactData.impact
+};
+
 // Check if we're in production/GitHub Pages environment
 const isProduction = import.meta.env.PROD || window.location.hostname.includes('github.io');
 
@@ -13,8 +39,12 @@ const api = axios.create({
 // Function to load local data files
 const loadLocalData = async (filename) => {
   try {
-    const module = await import(`../data/${filename}.json`);
-    return module.default;
+    // Return data from the map
+    if (dataMap[filename]) {
+      return dataMap[filename];
+    } else {
+      throw new Error(`Data file ${filename} not found in data map`);
+    }
   } catch (error) {
     console.error(`Error loading local data file ${filename}:`, error);
     throw error;
@@ -26,7 +56,7 @@ export const fetchData = async (endpoint) => {
   if (isProduction) {
     const filename = endpoint.replace('/api/', '');
     const data = await loadLocalData(filename);
-    return data[filename]; // Return the nested object
+    return data; // Return the data directly (already the nested object)
   }
   
   // In development, use API calls
